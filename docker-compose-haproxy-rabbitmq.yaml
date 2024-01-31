@@ -52,7 +52,7 @@ services:
   hostname: haproxy
   ports:
     - "5672:5672"
-    - "1936:1936"
+    - "7777:7777"
   networks:
    - cluster-network
 
